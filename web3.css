@@ -1,0 +1,550 @@
+body{
+    margin: 0;
+    
+}
+
+.co1 {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    
+    
+}
+
+.container-1 img{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    z-index: 1000;   /* ensure navbar is above other content*/ 
+    position: fixed;
+    top: 0;  /* positioned at the top */ 
+    right:0; /* positioned at the right */
+    padding: 10px 20px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar li{
+    margin-right: 10px;
+    
+}
+
+#navbar li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+#navbar a:hover{
+    color: gold;
+}
+
+.container-1-2{
+    padding-top: 60px;
+    padding-left: 5%;
+    overflow: hidden;
+}
+
+
+
+
+.container-1-2 p{
+    text-align: left;
+    padding-right: 40%;
+   font-style: italic;
+   font-size: 20px;
+}
+
+.content{
+    float: left;
+    box-sizing: border-box;
+    width: 70%;
+}
+
+
+.slide{
+    width: 100%;
+    height: auto;
+}
+
+
+.slider {
+    
+    margin-top: 5%;
+    margin-right: 11%;
+    float: left;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative; /* Ensures images are positioned relative to the slider */
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    position: absolute; /* Position images on top of each other */
+    top: 0;
+    left: 0;
+    opacity: 0; /* Hide all images initially */
+    transition: opacity 0.5s ease; /* Smooth transition effect */
+}
+
+
+.button{
+    text-decoration: none;
+    background-color: #333;
+	color: #fff;
+	padding:10px 15px;
+	border:none;
+    text-align: center;
+    
+}
+
+.button:hover{
+    color: rgb(12, 12, 12);
+    background-color: gold;
+}
+
+
+.container-2{
+    text-align: center;
+    font-style: italic;
+}
+
+
+.container-2 p {
+    padding-left: 21%;
+    padding-right: 21%;
+}
+
+
+
+.products1234{
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    
+}
+
+
+
+.product-item{
+    float: left;
+    width: 20%;
+    padding-right: 10px;
+    padding-top: 10px;
+    
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.products1234::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+@media screen and (max-width:768px){
+    .product-item{
+        width: 45%;  /* this means on a screen 768px or below the width of the images will be 100% and they will
+                       stack on each other */
+    }
+}
+
+.imageDescription,.Price{
+    text-align: center;
+}
+
+.products5678{
+    box-sizing: border-box;
+    padding-bottom: 40px;
+}
+
+.products5678::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.products9{
+    box-sizing: border-box;
+    padding-bottom: 40px;
+}
+
+.products9::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+
+.products10{
+    box-sizing: border-box;
+    padding-bottom: 40px;
+}
+
+.products10::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#clickableImage1{
+    border: 2px solid red;
+    
+}
+
+#clickableImage2{
+    border: 2px solid red;
+}
+
+#clickableImage3{
+    border: 2px solid red;
+}
+
+#clickableImage4{
+    border: 2px solid red;
+}
+
+#clickableImage5{
+    border: 2px solid red;
+    
+}
+
+#clickableImage6{
+    border: 2px solid red;
+    padding-bottom: 25%;
+}
+
+#clickableImage7{
+    border: 2px solid red;
+}
+
+#clickableImage8{
+    border: 2px solid red;
+    padding-bottom: 34.5%;
+}
+
+#clickableImage9{
+    border: 2px solid red;
+    padding-bottom: 36%;
+}
+
+#clickableImage10{
+    border: 2px solid red;
+    padding-bottom: 27%;
+}
+
+#clickableImage11{
+    border: 2px solid red;
+    padding-bottom: 20%;
+}
+
+#clickableImage12{
+    border: 2px solid red;
+    padding-bottom: 49%;   
+}
+
+#clickableImage13{
+    border: 2px solid red;
+    padding-bottom: 4%;
+}
+
+#clickableImage14{
+    border: 2px solid red;
+    padding-bottom: 0.5%;
+}
+
+#clickableImage15{
+    border: 2px solid red;
+    padding-bottom: 46%;
+}
+
+#clickableImage16{
+    border: 2px solid red;
+    padding-bottom: 3%;
+}
+
+
+#enlargedContainer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#enlargedContainer img {
+    border: 2px solid red;
+    
+}
+
+.container-3 {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.container-3 p {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+}
+
+
+.about1, .about2, .about3, .about4, .about5, .about6 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 8%;
+}
+
+.Boxes{
+    border: 2px solid blue;
+    background-color: #fff;
+    padding: 10px;
+    z-index: 2;
+    flex: 1;
+    position: relative;
+    margin-top: 5%;
+    margin-right: 30%; 
+    
+}
+
+.ImagesLeft { 
+    position: relative;
+    z-index: 1;
+    flex:  0 0 30%;
+    
+}
+
+.ImagesLeft img {
+    height: 85%;
+    
+}
+
+
+
+
+#WWE {
+    width: 60%;
+    border: 2px solid rgb(179, 26, 84);
+    margin-left: 40%;
+    padding-right: 5%;
+}
+
+
+.BoxesLeft {
+    border: 2px solid blue;
+    background-color: #fff;
+    padding: 10px;
+    z-index: 2;
+    flex: 1;
+    position: relative;
+    margin-top: 5%;
+    padding-right: 5%;
+    margin-left: 35%;
+}
+
+.Images {
+    position: relative;
+    z-index: 1;
+    flex:  0 0 30%;
+    margin-left: -6%;
+}
+
+.Images img {
+    height: 85%;
+}
+
+#WWE1 {
+    width: 60%;
+    border: 2px solid rgb(179, 26, 176);
+    margin-left: 15%;
+}
+
+.Contact-Us h1{
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+
+.container-4{
+    
+    display: flex;
+    border-radius: 20px;
+    
+}
+
+.Information{
+    
+    box-sizing: border-box;
+    flex: 1;
+    background-color: white;
+    border: 1px solid red; 
+    border-left-color: #fff;
+   
+} 
+
+
+.Information1{
+    
+    box-sizing: border-box;
+    flex: 1;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    
+} 
+
+.hours-list {
+    display: none;  /* hide the hours list by default*/
+    margin-left: 20px;
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+.hours-list li {
+    margin-left: 30px;
+}
+
+.Information1.active .hours-list {
+    display: block;  /* display the hours list when .active is applied */
+}
+
+.Contact{
+    
+    
+    box-sizing: border-box;
+    flex: 2;
+    text-align: center;
+    background-color: white;
+    border: 1px solid red; 
+    border-right-color: white;
+    
+    
+}
+
+.post{
+    padding: 20px;
+}
+
+.Yvan{
+    
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.Yvan label{
+    display: block;
+}
+
+.Yvan input{
+    padding: 8px;
+    width: 50%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+
+
+
+.Information p{
+    margin-left: 30px;
+}
+
+.Information h5{
+    margin-left: 20px;
+}
+
+.Information p a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Information p a:hover {
+    color: blue;
+}
+
+
+.icons{
+    margin-left: 30%;
+    cursor: pointer;
+    margin-top: 10%;
+}
+
+.icons a {
+    cursor: pointer;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.icons a i {
+    font-size: 34px;
+}
+
+.Yvan2{
+    
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.Yvan2 label{
+    display: block;
+}
+
+.Yvan2 input{
+    margin-right: 10%;
+    padding: 8px;
+    width: 50%;
+    margin-bottom: 2%;
+    
+}
+
+
+.Yvan3{
+    padding-bottom: 15px;
+    display: flex;
+    margin-right: 10%;
+}
+
+.Yvan3 label{
+    display: block;
+}
+
+.Yvan3 textarea{
+    padding: 8px;
+    width: 100%;
+    flex: 5;
+    height: 100px;
+}
+
+.bts button{
+    cursor: pointer;
+    margin-left: 70%;
+    color: black;
+    background-color: gold;
+    border: gold;
+    border-radius: 20%;
+    padding: 5px;
+}
+
+
+

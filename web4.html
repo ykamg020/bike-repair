@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Réservation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="web3.css">
+</head>
+<body>
+    
+
+<header>
+    <div class="co1">
+        <div class="container-1">
+            <img src="logoYvan/yk.jpg" alt="logo">
+            <div id="logo-container"></div>
+            <aside>
+                <nav id="navbar">
+                    <ul>
+                        
+                        <li><a href="web2.html">Services</a></li>
+                        <li><a href="web4.html">Reservation</a></li>
+                        <li><a href="web5.html">Location</a></li>
+                        <li><a href="web3.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            
+        </div>
+    <h1>Prendre Rendez-vous</h1>
+</header>
+
+<form id="reservationForm">
+    <label>Nom :</label>
+    <input type="text" id="name" required>
+
+    <label>Email :</label>
+    <input type="email" id="email" required>
+
+    <label>Service :</label>
+    <select id="service">
+        <option>Changement de pneu</option>
+        <option>Entretien complet</option>
+        <option>Visite guidée</option>
+    </select>
+
+    <label>Date :</label>
+    <input type="date" id="date" required>
+
+    <label>Heure :</label>
+    <input type="time" id="time" required>
+
+    <button type="submit">Continuer</button>
+</form>
+
+<div id="summary" class="hidden"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
